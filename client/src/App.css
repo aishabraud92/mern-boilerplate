@@ -1,0 +1,71 @@
+nav{
+  width: 100;
+  background-color: black;
+  padding: 10px 0;
+}
+nav a{
+  margin: 10px;
+  text-decoration: none;
+  color: #5df;
+
+}
+.footer{
+  background-color: #555;
+  color: #5df;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-text{
+  font-size: 9px;
+  min-height: 20px;
+
+}
+.content{
+  padding: 20px 0;
+}
+.btn {
+  color: #fff;
+  background-color: #44f;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.error{
+  background-color: pink;
+  color: red;
+}
+.no-flash {
+  visibility: hidden;
+  padding: 10px 30px;
+
+}
+/*default*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: purple;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
